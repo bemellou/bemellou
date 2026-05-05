@@ -4,13 +4,13 @@
 
 We make mental health easier by giving you the softest possible first step: a plush you can hold, that opens an app that meets you where you are, before you're ready for anything harder.
 
-**Live:** [bemellou.com](https://bemellou.com) · **Launching end of May 2026** · 800+ on the waitlist · Built in [Lovable](https://lovable.dev), wrapped with Capacitor for iOS + Android.
+**Live:** [bemellou.com](https://bemellou.com) · **Launching May 28, 2026** · 800+ on the waitlist · iOS + Android (React + TypeScript + Vite, wrapped with Capacitor).
 
 ---
 
 ## What's in this org
 
-We ship our own internal tools. Each of these runs in production and powers a real part of how we operate.
+We ship our own internal tools, in the open. Each runs in production and powers a real part of how we operate.
 
 ### 🧠 [bemellou-engine](https://github.com/bemellou/bemellou-engine)
 The acquisition + research engine. Monitors Reddit and adjacent communities for anxiety + mental-health posts, drafts replies (manual approval gate), and aggregates topics into market-research signal. Doubles as a hook bank for our content team.
@@ -37,22 +37,39 @@ The app itself. React + TypeScript + Vite, wrapped with Capacitor for iOS + Andr
 
 ---
 
-## Why we share what we build
+## Open assets
 
-We think more companies should treat their internal tooling as part of the company, not separate from it. The bots that find our influencers, surface our funding opportunities, and run our acquisition all show how we think — direct, specific, leveraging AI as multiplier rather than replacement.
+Beyond the tools, we open three artifacts most companies keep gated:
 
-If you're a builder who wants to work on this with us, or an investor / partner / community member who wants to dig in, every repo above is open and the README is the front door.
+### 🛠 [specs](https://github.com/bemellou/specs)
+The actual prompts and specifications we feed our AI agents to build the bots and the app. Bemellou's CEO writes specs; agents ship code. This repo is a sample of how we do that — the most useful artifact a team can publish about how it builds.
+
+### 📰 [press-kit](https://github.com/bemellou/press-kit)
+Logos, product photos, founder photos, brand colors, approved language. Open for journalists, partners, retailers, investors, community.
+
+### 💼 [jobs](https://github.com/bemellou/jobs)
+Open roles. We're hiring an English-speaking PSYPACT-licensed psychologist to run launch sessions. More roles will land here.
+
+---
+
+## How we build
+
+We're a small team using AI agents as multipliers. The CEO writes specifications; agents ship code. The internal tools above were each built by one person directing one or more AI coding agents (Claude Code, Cursor, OpenHands).
+
+The model is fast — but only if your specs don't fall apart when the agent reads them. The [`specs`](https://github.com/bemellou/specs) repo shows what tightened specs look like.
+
+We open-source what we can — not because every line is reusable, but because the *way* we build is part of the company. Tooling shows how a team thinks.
 
 ---
 
 ## Team
 
-Five people + one clinical lead, building from Northwestern's [The Garage](https://thegarage.northwestern.edu) and remote.
+Five founders + one clinical lead, building from Northwestern's [The Garage](https://thegarage.northwestern.edu) and remote.
 
-- **Rodrigo Arismendi** — CEO & CTO ([linkedin](https://linkedin.com/in/rodrigoarismendi))
+- **Rodrigo Arismendi** — CEO & CTO ([@roarismendio-jpg](https://github.com/roarismendio-jpg))
+- **Jose Loreto Arismendi** — CSO (founder of Black Forest Supplements, $25M+ revenue)
 - **Joseito (Jose Nunez)** — COO
 - **Eugenia Torbar** — CMO
-- **Jose Loreto Arismendi** — CSO (also CMO + co-founder of Black Forest Supplements, $25M+ revenue)
 - **Juan Bautista Arismendi** — CFO
 - **Esther** — Head of Clinical Experience
 
@@ -60,5 +77,7 @@ Five people + one clinical lead, building from Northwestern's [The Garage](https
 
 ## Contact
 
-Building → [bemellou.com](https://bemellou.com)
-Reach out → rodrigo@chubiez.com (Bemellou domain transition in progress)
+- Site → [bemellou.com](https://bemellou.com)
+- Press / partners → [press-kit](https://github.com/bemellou/press-kit)
+- Hiring → [jobs](https://github.com/bemellou/jobs)
+- Reach out → rodrigo@chubiez.com (Bemellou domain transition in progress)
