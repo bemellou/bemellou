@@ -8,47 +8,34 @@ We make mental health easier by giving you the softest possible first step: a pl
 
 ---
 
-## What's in this org
+## What we ship
 
-We ship our own internal tools, in the open. Each runs in production and powers a real part of how we operate.
+We build our own internal tools for acquisition, research, and ops. The tools below are in production. Most run as private repos because the code, configurations, and strategy are part of our edge — but the surfaces they document are part of our story.
 
-### 🧠 [bemellou-engine](https://github.com/bemellou/bemellou-engine)
-The acquisition + research engine. Monitors Reddit and adjacent communities for anxiety + mental-health posts, drafts replies (manual approval gate), and aggregates topics into market-research signal. Doubles as a hook bank for our content team.
-[Live ↗](https://bemellou-engine-web.onrender.com)
+### 🧠 bemellou-engine *(internal)*
+Acquisition + research engine. Monitors mental-health-adjacent communities, drafts replies behind a manual approval gate, aggregates topic signal into market research. Doubles as a hook bank for our content team.
 
-### 🎯 [bemellou-funding-bot](https://github.com/bemellou/bemellou-funding-bot)
+### 🎯 bemellou-funding-bot *(internal)*
 Surfaces relevant accelerators, fellowships, grants, and competitions for early-stage consumer wellness companies. We've used it to track 29+ programs.
-[Live ↗](https://chubiez-funding-bot.onrender.com)
 
 ### 📺 [bemellou-youtube-finder](https://github.com/bemellou/bemellou-youtube-finder)
 YouTube influencer discovery + qualification engine. Used to source partners aligned with our audience.
-[Live ↗](https://chubiez-youtuber-finder-production.up.railway.app)
 
 ### 🎓 [bemellou-uni-pipeline](https://github.com/bemellou/bemellou-uni-pipeline)
 University partnership tracker. We're in active conversations with Northwestern, UC Berkeley, and BU.
-[Live ↗](https://chubiez-uni-pipeline.web.app)
 
 ### 🎛 [bemellou-command-center](https://github.com/bemellou/bemellou-command-center)
 Internal ops dashboard. Pulls our metrics into one surface so the team always sees the same numbers.
-[Live ↗](https://chubiez-command-center.vercel.app)
 
-### 📱 [bemellou-app](https://github.com/bemellou/bemellou-app)
-The app itself. React + TypeScript + Vite, wrapped with Capacitor for iOS + Android. Built around a free tier (with the plush) and three paid tiers, with adaptive course flows, a community, and live psychologist sessions.
+### 📱 bemellou-app *(internal)*
+The product. React + TypeScript + Vite, wrapped with Capacitor for iOS + Android. Built around a free tier (with the plush) and three paid tiers, with adaptive course flows, a community, and live psychologist sessions.
 
 ---
 
 ## Open assets
 
-Beyond the tools, we open three artifacts most companies keep gated:
-
-### 🛠 [specs](https://github.com/bemellou/specs)
-The actual prompts and specifications we feed our AI agents to build the bots and the app. Bemellou's CEO writes specs; agents ship code. This repo is a sample of how we do that — the most useful artifact a team can publish about how it builds.
-
-### 📰 [press-kit](https://github.com/bemellou/press-kit)
-Logos, product photos, founder photos, brand colors, approved language. Open for journalists, partners, retailers, investors, community.
-
-### 💼 [jobs](https://github.com/bemellou/jobs)
-Open roles. We're hiring an English-speaking PSYPACT-licensed psychologist to run launch sessions. More roles will land here.
+- 📰 [press-kit](https://github.com/bemellou/press-kit) — logos, product photos, founder photos, brand colors, approved language. Open for journalists, partners, retailers.
+- 💼 [jobs](https://github.com/bemellou/jobs) — open roles. We're hiring an English-speaking PSYPACT-licensed psychologist to run launch sessions.
 
 ---
 
@@ -56,9 +43,7 @@ Open roles. We're hiring an English-speaking PSYPACT-licensed psychologist to ru
 
 We're a small team using AI agents as multipliers. The CEO writes specifications; agents ship code. The internal tools above were each built by one person directing one or more AI coding agents (Claude Code, Cursor, OpenHands).
 
-The model is fast — but only if your specs don't fall apart when the agent reads them. The [`specs`](https://github.com/bemellou/specs) repo shows what tightened specs look like.
-
-We open-source what we can — not because every line is reusable, but because the *way* we build is part of the company. Tooling shows how a team thinks.
+The model is fast — but only if your specs don't fall apart when the agent reads them. Tooling is part of how we think; we keep the strategic layer internal.
 
 ---
 
